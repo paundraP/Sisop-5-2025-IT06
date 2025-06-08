@@ -73,7 +73,7 @@ megs: 32
 # VGAROMIMAGE
 # You now need to load a VGA ROM BIOS into C0000.
 #=======================================================================
-vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest.bin
 
 #=======================================================================
 # VGA:
@@ -260,3 +260,4 @@ mouse: enabled=0
 #=======================================================================
 #i440fxsupport: enabled=1
 pci: enabled=1, chipset=i440fx
+display_library: sdl2

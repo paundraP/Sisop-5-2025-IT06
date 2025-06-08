@@ -13,4 +13,5 @@ void clear(byte *buf, unsigned int size);
 void atoi(char *str, int *num);
 void itoa(int num, char *str);
 
+
 #endif // __STD_LIB_H__
