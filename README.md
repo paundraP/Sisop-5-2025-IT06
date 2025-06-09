@@ -189,4 +189,24 @@ https://github.com/user-attachments/assets/1cfa66b1-b2f5-4e3e-a4b2-ec8b012f6fbb
 
 ## Laporan
 
-> Isi sesuai pengerjaan.
+# Laporan Praktikum Sistem Operasi Modul 5 
+## EorzeOS
+
+---
+
+## Soal 1 - Echo
+
+Pada soal ini, kita diminta mengimplementasikan fitur **"The Echo"**, yaitu kemampuan untuk mengulang setiap input pengguna yang *bukan merupakan perintah* (command) yang dikenali oleh shell EorzeOS.
+
+Jika pengguna mengetik sesuatu yang tidak dikenali, maka shell akan mencetak ulang input tersebut.
+
+###  Implementasi
+
+Fitur ini ditangani dalam fungsi `processCommand()` di `shell.c`. Di akhir fungsi terdapat blok `else` sebagai fallback:
+
+```c
+else {
+    printString(rawInput);
+}
+
+
