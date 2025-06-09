@@ -5,7 +5,7 @@
 | Nama                    | NRP        |
 | ----------------------- | ---------- |
 | Paundra Pujo Darmawan   | 5027241008 |
-| Putri Joselina Silitong | 5027241116 |
+| Putri Joselina Silitonga | 5027241116 |
 
 ## Daftar Isi
 
